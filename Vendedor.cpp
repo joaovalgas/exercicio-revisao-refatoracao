@@ -16,7 +16,7 @@ class Vendedor : public Empregado {
 	
 	void print(){
 		std::cout << "Nome: " << Vendedor ::nome << std::endl;
-		std::cout << "Salario Mes: " << Vendedor ::pagamentoMes(horasTrabalhadas) << std::endl;  
+		std::cout << "Salario Mes: " << Vendedor ::pagamentoMes() << std::endl;  
 		std::cout << "Quota vendas: " << Vendedor ::quotaTotalAnual() << std::endl;
 		std::cout << std::endl;
 	}

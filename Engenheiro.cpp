@@ -11,7 +11,7 @@ class Engenheiro : public Empregado {
 
   void print(){
     std::cout << "Nome: " << Engenheiro::nome << std::endl;
-    std::cout << "Salario Mes: " << Engenheiro::pagamentoMes(horasTrabalhadas) << std::endl;
+    std::cout << "Salario Mes: " << Engenheiro::pagamentoMes() << std::endl;
     std::cout << "Projetos: " << Engenheiro::projetos << std::endl;
     std::cout << std::endl;
   }
