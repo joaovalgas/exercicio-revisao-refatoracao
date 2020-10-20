@@ -12,7 +12,7 @@ class Empregado {
     double salarioHora; 
 
   public:
-    double pagamentoMes(double horasTrabalhadas) {
+    double pagamentoMes() {
       double horasMaisHorasExtra = horasTrabalhadas;
       double horasPadraodeTrabalho = 8;
       int cinquentaPorcento = 2;
